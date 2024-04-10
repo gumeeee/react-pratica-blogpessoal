@@ -3,9 +3,9 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <div className=" bg-indigo-900 text-white flex justify-center py-4">
-        <div className="text-xl flex content-center font-bold uppercase px-4">
-          <h1 className="px-6">Blog pessoal</h1>
+      <div className="w-full bg-indigo-900 text-white flex justify-center py-4">
+        <div className="container flex justify-between text-lg">
+          <div className="text-2xl font-bold uppercase">Blog pessoal</div>
 
           <div className="flex gap-4">
             <div className="hover:underline">Postagens</div>
