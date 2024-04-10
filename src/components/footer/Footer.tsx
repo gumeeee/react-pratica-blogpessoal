@@ -4,7 +4,7 @@ import { GithubLogo, InstagramLogo, LinkedinLogo } from "@phosphor-icons/react";
 function Footer() {
   return (
     <>
-      <div className="flex justify-center bg-indigo-900 text-white">
+      <div className="flex flex-col items-center justify-center bg-indigo-900 text-white py-4">
         <div className="container flex flex-col items-center py-4">
           <p className="text-xl font-bold">
             Blog pessoal Guilherme Moura | Copyright
