@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import CardTemas from "../cardTemas/CardTemas";
 import Tema from "../../../models/Tema";
 import { useNavigate } from "react-router-dom";

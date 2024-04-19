@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Tema from "../../../models/Tema";
 import { useNavigate, useParams } from "react-router-dom";
 import { AuthContext } from "../../../contexts/AuthContext";
@@ -7,7 +7,7 @@ import { buscar, deletar } from "../../../service/Service";
 function DeletarTemas() {
   const [tema, setTema] = useState<Tema>({} as Tema);
 
-  const navigate = useNavigate();
+  let navigate = useNavigate();
 
   const { id } = useParams<{ id: string }>();
 

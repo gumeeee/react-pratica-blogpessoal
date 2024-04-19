@@ -20,7 +20,6 @@ function ModalPostagem() {
           <FormularioPostagem />
         </div>
       </Popup>
-
     </>
   );
 }
