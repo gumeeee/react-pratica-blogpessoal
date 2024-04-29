@@ -12,7 +12,7 @@ function Footer() {
   if (usuario.token !== "") {
     footerComponent = (
       <>
-        <div className="flex flex-col items-center justify-center bg-indigo-900 text-white py-4">
+        <div className="w-full bg-gradient-to-b from-teal-400 to-yellow-200 flex flex-col items-center justify-center text-white py-4">
           <div className="container flex flex-col items-center py-4">
             <p className="text-xl font-bold">
               Blog pessoal Guilherme Moura (gumee) | Copyright

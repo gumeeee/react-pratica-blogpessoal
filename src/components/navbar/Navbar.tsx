@@ -18,30 +18,52 @@ function Navbar() {
 
   if (usuario.token !== "") {
     navbarComponent = (
-      <div className="w-full bg-indigo-900 text-white flex justify-center py-4">
+      <div className="w-full bg-gradient-to-t from-teal-400 to-yellow-200 text-white flex justify-center py-4">
         <div className="container flex justify-between text-lg">
-          <div className="text-2xl font-bold uppercase">Blog Pessoal</div>
+          <div className="text-2xl font-bold uppercase">Blog do Gui</div>
 
           <div className="flex gap-4">
-            <Link to="/login" className="hover:underline">
+            <Link
+              to="/login"
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Login
             </Link>
-            <Link to="/home" className="hover:underline">
+            <Link
+              to="/home"
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Home
             </Link>
-            <Link to="/postagens" className="hover:underline">
+            <Link
+              to="/postagens"
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Postagens
             </Link>
-            <Link to="/temas" className="hover:underline">
+            <Link
+              to="/temas"
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Temas
             </Link>
-            <Link to="/cadastroTema" className="hover:underline">
+            <Link
+              to="/cadastroTema"
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Cadastrar tema
             </Link>
-            <Link to="/perfil" className="hover:underline">
+            <Link
+              to="/perfil"
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Perfil
             </Link>
-            <Link to="" onClick={logout} className="hover:underline">
+            <Link
+              to=""
+              onClick={logout}
+              className="bg-gradient-to-r from-green-400 to-blue-500 rounded p-1 hover:from-pink-500 hover:to-yellow-500"
+            >
               Sair
             </Link>
           </div>
